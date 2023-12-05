@@ -1,0 +1,4 @@
+<p class="titulo-css"><img src="./img/logo-css.png" alt="logo CSS" class="front-end__logo">CSS</p> 
+                    <p class="titulo-html"><img src="./img/logo-html.png" alt="logo HTML" class="front-end__logo">HTML</p>
+                    <p class="titulo-js"><img src="./img/logo-js.png" alt="logo JavaScript" class="front-end__logo">JavaScript</p>
+                    <p class="titulo-react"><img src="./img/logo-react.png" alt="logo React" class="front-end__logo">React</p>
