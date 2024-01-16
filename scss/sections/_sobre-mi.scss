@@ -1,0 +1,65 @@
+/*Sobre Mi*/
+.sobre-mi{
+    .sobre-mi__titulo{
+        text-align: center;
+        margin-top: 150px;
+        font-size: 3.5rem;
+        text-decoration: underline;
+    }
+    .sobre-mi__parrafo-foto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 200px;
+        margin-top: 100px;
+        .sobre-mi__parrafo-links{
+            width: 700px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            .sobre-mi__parrafo{
+                font-size: 1.7rem;
+            }
+            .sobre-mi__links{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                margin-top: 50px;
+                .sobre-mi__cv{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1.2rem;
+                }
+                .sobre-mi__linkedin{
+                    text-decoration: none;
+                    color: black;   
+                    font-size: 1.2rem;
+                    .sobre-mi__boton-linkedin{
+                        background-color: #077f94;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 25px;
+                        padding: 12px 24px;
+                        border-radius: 12px;
+                        display: flex;
+                        gap: 8px;
+                    }
+                    .sobre-mi__logo-boton{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+        .sobre-mi__cont-foto{
+            width: 300px;
+            height: 300px;
+            border: 1px;
+            border-style: solid;
+            border-radius: 100%;
+            .sobre-mi__imagen{}
+        }
+    }
+}

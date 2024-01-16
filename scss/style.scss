@@ -1,5 +1,6 @@
 /*Base-Reset*/
 @import "base/reset.scss";
+@import "base/hr";
 
 /*Layout*/
 @import "layout/header.scss";
@@ -9,3 +10,5 @@
 /*Sections*/
 @import "sections/portada";
 @import "sections/stacks";
+@import "sections/sobre-mi";
+@import "sections/portfolio";
