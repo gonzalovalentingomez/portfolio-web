@@ -1,0 +1,25 @@
+/*Portada*/
+.portada{
+    height: 950px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .portada__parrafo-principal{
+        display: flex;
+        flex-direction: column;
+        font-size: 5.5rem;
+        font-weight: 350;
+        margin-bottom: 20px;
+    }
+    .portada__apellido{
+        color: #077f94;
+    }
+    .portada__parrafo-secundario{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.4rem;
+        gap: 5px;
+    }
+}
