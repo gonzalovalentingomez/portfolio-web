@@ -20,7 +20,7 @@ hr {
   position: fixed;
   background-color: #fff;
   width: 100%;
-  height: 90px;
+  height: 58px;
   display: flex;
   justify-content: space-between;
 }
@@ -28,8 +28,8 @@ hr {
   margin-left: 50px;
 }
 .cont__header .cont__logo .logo {
-  height: 90px;
-  width: 100px;
+  height: 58px;
+  width: 65px;
 }
 .cont__header .nav {
   display: flex;
@@ -41,7 +41,7 @@ hr {
   text-decoration: none;
   color: black;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: #077f94;
 }
 
@@ -56,6 +56,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
 }
 .contacto .contacto__titulo-parrafo {
   display: flex;
@@ -84,7 +85,7 @@ hr {
 /*Sections*/
 /*Portada*/
 .portada {
-  height: 950px;
+  height: 700px;
   width: 100%;
   text-align: center;
   display: flex;
@@ -94,7 +95,7 @@ hr {
 .portada .portada__parrafo-principal {
   display: flex;
   flex-direction: column;
-  font-size: 5.5rem;
+  font-size: 4.2rem;
   font-weight: 350;
   margin-bottom: 20px;
 }
@@ -104,33 +105,31 @@ hr {
 .portada .portada__parrafo-secundario {
   display: flex;
   flex-direction: column;
-  font-size: 1.4rem;
-  gap: 5px;
+  font-size: 1.2rem;
+  gap: 1px;
 }
 
 .stack-tecnologico .stack-tecnologico__titulo {
   text-align: center;
-  font-size: 3.5rem;
-  text-decoration: underline;
+  font-size: 2.8rem;
   padding-top: 50px;
 }
 .stack-tecnologico .stack-tecnologico__conts {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
-  gap: 200px;
+  gap: 150px;
 }
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__seccion-front-end {
-  width: 300px;
-  height: 500px;
+  width: 250px;
+  height: 400px;
   border: 3px;
   border-style: solid;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
-  gap: 55px;
-  font-size: 20px;
+  gap: 35px;
+  font-size: 1rem;
 }
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__seccion-front-end .stack-tecnologico__titulo-front-end {
   text-align: center;
@@ -155,16 +154,16 @@ hr {
   gap: 50px;
 }
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__git-github .stack-tecnologico__cont-git .stack-tecnologico__logo-git-github {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__git-github .stack-tecnologico__cont-git .stack-tecnologico__titulo-git-github {
   text-align: center;
-  font-size: 22.5px;
+  font-size: 1.2rem;
 }
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__back-end {
-  width: 300px;
-  height: 500px;
+  width: 250px;
+  height: 400px;
   border: 3px;
   border-style: solid;
   border-radius: 12px;
@@ -178,26 +177,25 @@ hr {
 /*Sobre Mi*/
 .sobre-mi .sobre-mi__titulo {
   text-align: center;
-  margin-top: 150px;
-  font-size: 3.5rem;
-  text-decoration: underline;
+  margin-top: 200px;
+  font-size: 2.8rem;
 }
 .sobre-mi .sobre-mi__parrafo-foto {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 200px;
+  gap: 120px;
   margin-top: 100px;
 }
 .sobre-mi .sobre-mi__parrafo-foto .sobre-mi__parrafo-links {
-  width: 700px;
+  width: 600px;
   height: 300px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 15px;
 }
 .sobre-mi .sobre-mi__parrafo-foto .sobre-mi__parrafo-links .sobre-mi__parrafo {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 .sobre-mi .sobre-mi__parrafo-foto .sobre-mi__parrafo-links .sobre-mi__links {
   display: flex;
@@ -240,29 +238,28 @@ hr {
 /*Portfolio*/
 .portfolio .portfolio__titulo {
   text-align: center;
-  margin-top: 350px;
-  text-decoration: underline;
-  font-size: 3.5rem;
-  margin-bottom: 70px;
+  margin-top: 200px;
+  font-size: 2.8rem;
+  margin-bottom: 40px;
 }
 .portfolio .portfolio__proyectos-1-2 {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 120px;
   margin-bottom: 35px;
 }
 .portfolio .portfolio__proyectos-1-2 .portfolio__proyecto-1-2 {
-  width: 400px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
 }
 .portfolio .portfolio__proyectos-3-4 {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 120px;
 }
 .portfolio .portfolio__proyectos-3-4 .portfolio__proyecto-3-4 {
-  width: 400px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
