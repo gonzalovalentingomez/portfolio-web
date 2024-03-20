@@ -28,8 +28,8 @@ hr {
   margin-left: 50px;
 }
 .cont__header .cont__logo .logo {
-  height: 58px;
-  width: 65px;
+  height: 57px;
+  width: 67px;
 }
 .cont__header .nav {
   display: flex;
@@ -41,7 +41,7 @@ hr {
   text-decoration: none;
   color: black;
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #077f94;
 }
 
@@ -85,7 +85,7 @@ hr {
 /*Sections*/
 /*Portada*/
 .portada {
-  height: 700px;
+  height: 760px;
   width: 100%;
   text-align: center;
   display: flex;
@@ -95,7 +95,7 @@ hr {
 .portada .portada__parrafo-principal {
   display: flex;
   flex-direction: column;
-  font-size: 4.2rem;
+  font-size: 5rem;
   font-weight: 350;
   margin-bottom: 20px;
 }
@@ -105,13 +105,13 @@ hr {
 .portada .portada__parrafo-secundario {
   display: flex;
   flex-direction: column;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   gap: 1px;
 }
 
 .stack-tecnologico .stack-tecnologico__titulo {
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 2.9rem;
   padding-top: 50px;
 }
 .stack-tecnologico .stack-tecnologico__conts {
@@ -134,6 +134,7 @@ hr {
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__seccion-front-end .stack-tecnologico__titulo-front-end {
   text-align: center;
   padding-top: 25px;
+  font-size: 1.2rem;
 }
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__seccion-front-end .stack-tecnologico__front-end {
   display: flex;
@@ -159,7 +160,7 @@ hr {
 }
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__git-github .stack-tecnologico__cont-git .stack-tecnologico__titulo-git-github {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__back-end {
   width: 250px;
@@ -172,6 +173,7 @@ hr {
 .stack-tecnologico .stack-tecnologico__conts .stack-tecnologico__back-end .stack-tecnologico__titulo-back-end {
   text-align: center;
   padding-top: 25px;
+  font-size: 1.4rem;
 }
 
 /*Sobre Mi*/

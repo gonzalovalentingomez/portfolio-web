@@ -1,6 +1,6 @@
 /*Portada*/
 .portada{
-    height: 700px;
+    height: 760px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -9,7 +9,7 @@
     .portada__parrafo-principal{
         display: flex;
         flex-direction: column;
-        font-size: 4.2rem;
+        font-size: 5rem;
         font-weight: 350;
         margin-bottom: 20px;
     }
@@ -19,7 +19,7 @@
     .portada__parrafo-secundario{
         display: flex;
         flex-direction: column;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         gap: 1px;
     }
 }
