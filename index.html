@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? family= Fuente+Sans+3 & display=swap" rel="hoja de estilo">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Gonzalo Gomez</title>
 </head>
 
@@ -25,13 +26,20 @@
 
 <body>
     <section class="portada">
-        <h1 class="portada__parrafo-principal">¡Hola! Soy Gonzalo <span class="portada__apellido">Gomez</span></h1>
+        <div class="cont-portada">
+            <h1 class="portada__parrafo-principal">¡Hola! Soy Gonzalo <span class="portada__apellido">Gomez</span></h1>
 
-        <p class="portada__parrafo-secundario">
-            Soy un apasionado de la programación, con un
-            <span>enfoque principal en Front-End y conocimientos base</span>
-            <span> en Back-End.</span>
-        </p>
+            <p class="portada__parrafo-secundario">
+                Soy un apasionado de la programación, con un
+                <span>enfoque principal en Front-End y conocimientos base</span>
+                <span> en Back-End.</span>
+            </p>
+        </div>
+        <div class="cont-more-stack" >
+            <p class="more-stack__titulo animate__slideOutDown">Stack Tecnologico</p>
+            <img src="img/more.png" alt="more"
+            class="more-stack__img animate__slideOutDown">
+        </div>
     </section>
 
     <main class="contenido-principal">
@@ -105,12 +113,8 @@
             <section id="portfolio" class="portfolio">
                 <h2 class="portfolio__titulo">Portfolio</h2>
                 <div class="portfolio__proyectos-1-2">
-                    <img src="" alt="" class="portfolio__proyecto-1-2">
-                    <img src="" alt="" class="portfolio__proyecto-1-2">
-                </div>
-                <div class="portfolio__proyectos-3-4">
-                    <img src="" alt="" class="portfolio__proyecto-3-4">
-                    <img src="" alt="" class="portfolio__proyecto-3-4">
+                    <img src="img/foto-Bogaa.png" alt="foto pagina inmobiliaria" class="portfolio__proyecto-1-2">
+                    <img src="img/foto-ecommerce.png" alt="foto pagina de e-commerce" class="portfolio__proyecto-1-2">
                 </div>
             </section>
 

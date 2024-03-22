@@ -85,28 +85,53 @@ hr {
 /*Sections*/
 /*Portada*/
 .portada {
-  height: 760px;
+  height: 610px;
   width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.portada .portada__parrafo-principal {
+.portada .cont-portada {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.portada .cont-portada .portada__parrafo-principal {
   display: flex;
   flex-direction: column;
   font-size: 4.1rem;
   font-weight: 350;
   margin-bottom: 20px;
 }
-.portada .portada__apellido {
+.portada .cont-portada .portada__apellido {
   color: #077f94;
 }
-.portada .portada__parrafo-secundario {
+.portada .cont-portada .portada__parrafo-secundario {
   display: flex;
   flex-direction: column;
   font-size: 1.3rem;
   gap: 1px;
+}
+.portada .cont-more-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.portada .cont-more-stack .more-stack__titulo {
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+.portada .cont-more-stack .more-stack__img {
+  width: 20px;
+  height: 20px;
+}
+.portada .cont-more-stack .animate__slideOutDown {
+  animation-duration: 1.2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
 }
 
 .stack-tecnologico .stack-tecnologico__titulo {
@@ -258,17 +283,8 @@ hr {
   margin-bottom: 35px;
 }
 .portfolio .portfolio__proyectos-1-2 .portfolio__proyecto-1-2 {
-  width: 280px;
-  height: 180px;
-}
-.portfolio .portfolio__proyectos-3-4 {
-  display: flex;
-  justify-content: center;
-  gap: 120px;
-}
-.portfolio .portfolio__proyectos-3-4 .portfolio__proyecto-3-4 {
-  width: 280px;
-  height: 180px;
+  width: 250px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
