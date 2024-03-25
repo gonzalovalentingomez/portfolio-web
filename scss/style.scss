@@ -12,3 +12,12 @@
 @import "sections/stacks";
 @import "sections/sobre-mi";
 @import "sections/portfolio";
+
+
+/*Media Queries Tablet*/
+
+@import "./tb-media-queries/tablet.scss";
+
+
+/*Media Queries Mobile*/
+@import "./mob-media-queries/mobile.scss";
