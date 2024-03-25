@@ -36,7 +36,7 @@
     text-decoration: none;
     color: black;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: #077f94;
   }
   /*Portada*/
@@ -295,6 +295,7 @@
   }
   .portfolio {
     width: 100%;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,16 +308,16 @@
     margin-bottom: 50px;
   }
   .portfolio .portfolio__proyectos-1-2 {
-    width: 180px;
-    height: 140px;
+    width: 130px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 45px;
   }
   .portfolio .portfolio__proyectos-1-2 .portfolio__imgs {
-    width: 180px;
-    height: 140px;
+    width: 130px;
+    height: 100px;
     border: 0.1px;
     box-shadow: 0.5rem 0.5rem 1.5rem black;
   }
