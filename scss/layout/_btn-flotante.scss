@@ -1,0 +1,18 @@
+/*Boton flotante*/
+.btn-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 10px;
+    background-color: #256ebd;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1000;
+    .btn-flecha{
+        width: 25px;
+        height: 25px;
+        align-content: center;
+    }
+}

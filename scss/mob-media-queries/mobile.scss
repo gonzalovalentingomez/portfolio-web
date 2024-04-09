@@ -70,7 +70,7 @@
 
     /*Portada*/
     .portada{
-        height: 520px;
+        height: 730px;
         width: 100%;
         text-align: center;
         display: flex;
@@ -102,7 +102,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 100px;
+            margin-top: 300px;
             .more-stack__titulo{
                 font-size: 0.7rem;
                 font-weight: 900;
@@ -121,6 +121,8 @@
     
     /*Stack-Tecnologico*/
     .stack-tecnologico{
+        height: 700px;
+        align-content: center;
         .stack-tecnologico__titulo{
             text-align: center;
             font-size: 1.8rem;
@@ -211,7 +213,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 50px;
+            margin-top: 300px;
             .more-sobre-mi__titulo{
                 font-size: 0.8rem;
                 font-weight: 900;

@@ -84,6 +84,25 @@ hr {
   height: 35px;
 }
 
+/*Boton flotante*/
+.btn-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 10px;
+  background-color: #256ebd;
+  color: white;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 1000;
+}
+.btn-flotante .btn-flecha {
+  width: 25px;
+  height: 25px;
+  align-content: center;
+}
+
 /*Sections*/
 /*Portada*/
 .portada {
@@ -733,7 +752,7 @@ hr {
 }
 @media (max-width: 768px) {
   .portada {
-    height: 520px;
+    height: 730px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -766,7 +785,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 300px;
   }
   .portada .cont-more-stack .more-stack__titulo {
     font-size: 0.7rem;
@@ -780,6 +799,10 @@ hr {
     animation-duration: 1.2s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
+  }
+  .stack-tecnologico {
+    height: 700px;
+    align-content: center;
   }
   .stack-tecnologico .stack-tecnologico__titulo {
     text-align: center;
@@ -869,7 +892,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 300px;
   }
   .stack-tecnologico .cont-more-sobre-mi .more-sobre-mi__titulo {
     font-size: 0.8rem;

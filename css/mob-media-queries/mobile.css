@@ -75,7 +75,7 @@
 }
 @media (max-width: 768px) {
   .portada {
-    height: 520px;
+    height: 730px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -108,7 +108,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 300px;
   }
   .portada .cont-more-stack .more-stack__titulo {
     font-size: 0.7rem;
@@ -122,6 +122,10 @@
     animation-duration: 1.2s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
+  }
+  .stack-tecnologico {
+    height: 700px;
+    align-content: center;
   }
   .stack-tecnologico .stack-tecnologico__titulo {
     text-align: center;
@@ -211,7 +215,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 300px;
   }
   .stack-tecnologico .cont-more-sobre-mi .more-sobre-mi__titulo {
     font-size: 0.8rem;
